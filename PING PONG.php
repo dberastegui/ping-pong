@@ -3,7 +3,7 @@ session_start();
 header('Content-Type: text/html; charset=UTF-8');
 
 // --- CONFIGURACIÓN DE SEGURIDAD ---
-define('ADMIN_PASSWORD', '151020'); 
+define('ADMIN_PASSWORD', 'test2024'); 
 define('DATA_FILE', 'torneo_data.json');
 
 // --- FUNCIONES ---
@@ -244,4 +244,5 @@ if ($torneo) {
 </div>
 
 </body>
+
 </html>
